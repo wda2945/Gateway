@@ -1,0 +1,9 @@
+[Unit]
+Decription=gateway
+
+[Service]
+ExecStart=/root/start_gateway.sh
+
+[Install]
+WantedBy=multi-user.target
+
